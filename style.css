@@ -88,6 +88,11 @@ header p {
 
 button {
     cursor: pointer;
+    max-width: 375px;
+}
+
+button:hover {
+    background-color: var(--green);
 }
 
 a { 
